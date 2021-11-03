@@ -1,0 +1,59 @@
+body {
+    padding: 100px;
+}
+.intro {
+    letter-spacing: 5px;
+    font-size: 40px;
+    border-radius: 10px;
+    padding: 10px;
+    transition: background-color 0.2s ease 0s;
+}
+.intro:hover {
+    color:midnightblue;
+    background-color: aquamarine;
+    box-shadow: 5px 5px 10px lightblue;
+}
+.submit-area {
+    margin-top: 20px;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px grey;
+    transition: background-color 0.2s ease 0s;
+}
+.submit-area:hover {
+    background-color: paleturquoise;
+}
+#transaction-area {
+    display: none;
+}
+.status {
+    margin: 0px 20px;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    transition: box-shadow 0.3s ease 0s;
+}
+.deposit:hover {
+    box-shadow: 2px 2px 10px rgb(93, 199, 226);
+}
+.withdraw:hover {
+    box-shadow: 2px 2px 10px lightpink;
+}
+.balance:hover {
+    box-shadow: 2px 2px 10px rgb(255, 224, 46);
+}
+.deposit {
+    background-color: slateblue;
+}
+.withdraw {
+    background-color: lightsalmon;
+}
+.balance {
+    background-color: orange;
+}
+.deposit-field, .withdraw-field {
+    margin-top: 50px;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px grey;
+}
